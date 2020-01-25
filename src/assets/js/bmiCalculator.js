@@ -14,4 +14,13 @@ const getBMIClassification = (BMI) => {
     else if (BMI < 30) {
         return "Overweight"
         }
+    else if (BMI < 35) {
+        return "Obese: Class 1"
+        }
+    else if (BMI < 40) {
+        return "Obese: Class 2"
+        }
+    else {
+        return "Obese: Class 3"
+        }
 }
