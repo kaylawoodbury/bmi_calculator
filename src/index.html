@@ -9,11 +9,15 @@
 </head>
 <body>
     <h1>BMI Calculator</h1>
-    <input type="text" id="weight" placeholder="Your weight in kg">
-    <input type="text" id="height" placeholder="Your height in cm">
-    <button onclick="calculateBMI()" id="Calculate">Calculate</button>
-    <div id="results"></div>
-
+    <h2>Metric Version</h2>
+    <br>
+    <p>This calculator provides an estimated BMI and corresponding weight classification. This calculator should not replace consultation with your physician nor does it calculate body fat percentages.</p>
+    <div id = "calculator">
+        <input type="text" id="weight" placeholder="Your weight in kg">
+        <input type="text" id="height" placeholder="Your height in cm">
+        <button onclick="calculateBMI()" id="Calculate">Calculate</button>
+        <div id="results"></div>
+    </div>
     <script src="./assets/js/bmiCalculator.js"></script>
     <script src="./assets/js/bmiUI.js"></script>
 </body>
